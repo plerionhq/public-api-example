@@ -3,7 +3,7 @@
 
 This Python script fetches assets and vulnerabilities from the Plerion Public API. It specifically targets assets with at least one exploitable vulnerability classified as having a High or Critical Severity Level. 
 
-The vulnerability filters`{'severityLevels': 'HIGH,CRITICAL', 'hasExploit': 'true'} and asset filters `{'isPubliclyExposed': 'true'}` can be customized to your specific needs. Other options can be found in the API Reference section on the Plerion Resources page.
+The vulnerability filters `{'severityLevels': 'HIGH,CRITICAL', 'hasExploit': 'true'}` and asset filters `{'isPubliclyExposed': 'true'}` can be customized to your specific needs. Other options can be found in the API Reference section on the Plerion Resources page.
 
 Finally, it exports the results to the `result.xlsx` Excel file.
 
