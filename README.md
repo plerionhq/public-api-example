@@ -42,4 +42,5 @@ To create a Plerion Public API Key, follow these steps:
 3. Provide a name for the API Key in the "API Key Name" field, and then click on "Create API Key".
 4. Disable the "Base64 encoded JSON" toggle.
 5. Click on "Copy as JSON", and paste the copied JSON into the `config.json` file.
+  Note: The JSON data should include values for `PlerionURL`, `PlerionAPIKey`, `PlerionAccountId` and `ExternalId`. Only the first two are required.
 6. Click on the "Confirm" button to finalize the creation process.
